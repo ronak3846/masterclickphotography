@@ -233,16 +233,16 @@ export default function HomePage() {
         <div className="grid md:grid-cols-3 gap-8">
           {[
             {
-              name: "Emma",
+              name: "Ronak",
               feedback:
                 "Absolutely stunning photos! Every emotion captured beautifully.",
             },
             {
-              name: "Liam",
+              name: "Ankit",
               feedback: "Professional and creative. Wedding shots are magical!",
             },
             {
-              name: "Sophia",
+              name: "Rahul",
               feedback:
                 "Amazing experience, very comfortable during the shoot. Highly recommended!",
             },

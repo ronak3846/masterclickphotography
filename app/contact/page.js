@@ -64,7 +64,7 @@ export default function ContactPage() {
           </div>
           <div className="flex items-center gap-3">
             <FaMapMarkerAlt className="text-purple-400" />
-            <span className="text-gray-300">Mumbai, India</span>
+            <span className="text-gray-300">Delhi Gate, Udaipur, India</span>
           </div>
 
           {/* WhatsApp Button */}
