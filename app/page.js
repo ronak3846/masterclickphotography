@@ -164,7 +164,7 @@ export default function HomePage() {
             {
               title: "Wedding Photography",
               desc: "Cinematic and timeless captures.",
-              img: "/images/wedding.jpg",
+              img: "/images/img3.jpg",
             },
             {
               title: "Event Coverage",
@@ -174,7 +174,7 @@ export default function HomePage() {
             {
               title: "Portrait Sessions",
               desc: "Expressive and stylish portraits.",
-              img: "/images/portrait.jpg",
+              img: "/images/img7.jpg",
             },
             {
               title: "Product Shoots",

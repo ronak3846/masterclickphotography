@@ -14,7 +14,7 @@ const services = [
       "Cinematic highlights",
       "Custom photo albums",
     ],
-    image: "/images/wedding.jpg",
+    image: "/images/img3.jpg",
   },
   {
     title: "Event Coverage",
@@ -38,7 +38,7 @@ const services = [
       "Professional headshots",
       "Cinematic lighting setup",
     ],
-    image: "/images/portrait.jpg",
+    image: "/images/img7.jpg",
   },
   {
     title: "Product Shoots",
