@@ -45,7 +45,7 @@ export default function HomePage() {
           className="mt-4 text-lg md:text-xl text-gray-300"
         >
           By{" "}
-          <span className="font-semibold text-yellow-400">Ajay Vaishnav</span> •
+          <span className="font-semibold text-gold">Ajay Vaishnav</span> •
           Photographer & Videographer
         </motion.p>
         <motion.div
@@ -55,12 +55,12 @@ export default function HomePage() {
           className="mt-6 flex gap-4"
         >
           <Link href="/portfolio">
-            <Button className="bg-yellow-400 text-black px-6 py-3 rounded-lg font-medium hover:scale-105 transition-transform">
+            <Button className="bg-gold text-black px-6 py-3 rounded-lg font-medium hover:scale-105 transition-transform">
               View Portfolio
             </Button>
           </Link>
           <Link href="/contact">
-            <Button className="border-2 border-yellow-400 text-yellow-400 px-6 py-3 rounded-lg hover:bg-yellow-400 hover:text-black transition">
+            <Button className="border-2 border-gold text-black px-6 py-3 rounded-lg hover:bg-gold hover:text-black transition">
               Contact Me
             </Button>
           </Link>
@@ -90,13 +90,13 @@ export default function HomePage() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl font-bold mb-6 text-yellow-400">
+            <h2 className="text-4xl font-bold mb-6 text-gold">
               About Me
             </h2>
             <p className="leading-relaxed mb-4">
               Hi, I’m <span className="font-semibold">Ajay Vaishnav</span>, a
               passionate photographer with over{" "}
-              <span className="text-yellow-400">10 years</span> of experience
+              <span className="text-gold">10 years</span> of experience
               capturing life’s most precious moments.
             </p>
             <p className="leading-relaxed mb-6">
@@ -104,7 +104,7 @@ export default function HomePage() {
               colors, and memories that last a lifetime.
             </p>
             <Link href="/portfolio">
-              <Button className="bg-yellow-400 text-black px-6 py-3 rounded-lg font-medium hover:scale-105 transition-transform">
+              <Button className="bg-gold text-black px-6 py-3 rounded-lg font-medium hover:scale-105 transition-transform">
                 View My Work
               </Button>
             </Link>
@@ -115,7 +115,7 @@ export default function HomePage() {
       {/* Featured Gallery Section */}
       <section className="bg-black text-white py-20 px-6 md:px-20">
         <div className="text-center mb-14">
-          <h2 className="text-4xl md:text-5xl font-bold text-yellow-400">
+          <h2 className="text-4xl md:text-5xl font-bold text-gold">
             Featured Gallery
           </h2>
           <p className="text-gray-400 mt-3 text-lg">
@@ -144,11 +144,7 @@ export default function HomePage() {
                 height={400}
                 className="w-full object-cover transition-transform duration-700 group-hover:scale-110 group-hover:brightness-75"
               />
-              <div className="absolute inset-0 flex items-center justify-center bg-black opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                <p className="text-yellow-400 text-lg font-semibold">
-                  View More
-                </p>
-              </div>
+              
             </div>
           ))}
         </div>
@@ -156,7 +152,7 @@ export default function HomePage() {
 
       {/* Services Section */}
       <section className="bg-white text-black py-24 px-6 md:px-20">
-        <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-16 text-yellow-400">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gold">
           My Services
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
@@ -215,7 +211,7 @@ export default function HomePage() {
                   {service.desc}
                 </p>
                 <Link href="https://wa.me/919887165654" target="_blank">
-                  <Button className="px-5 py-2 bg-yellow-400 rounded-full text-black font-medium hover:scale-105 transition-transform">
+                  <Button className="px-5 py-2 bg-gold rounded-full text-black font-medium hover:scale-105 transition-transform">
                     Book Now
                   </Button>
                 </Link>
@@ -227,7 +223,7 @@ export default function HomePage() {
 
       {/* Testimonials */}
       <section className="bg-black text-white py-20 px-6 md:px-20">
-        <h2 className="text-4xl font-bold text-center mb-12 text-yellow-400">
+        <h2 className="text-4xl font-bold text-center mb-12 text-gold">
           What Clients Say
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
@@ -264,24 +260,24 @@ export default function HomePage() {
 
       {/* Stats Section */}
       <section className="bg-white text-black py-20 px-6 md:px-20 text-center">
-        <h2 className="text-4xl font-bold mb-12 text-yellow-400">
+        <h2 className="text-4xl font-bold mb-12 text-gold">
           My Achievements
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <motion.h3 className="text-6xl font-extrabold text-yellow-400">
+            <motion.h3 className="text-6xl font-extrabold text-gold">
               {years}+
             </motion.h3>
             <p>Years of Experience</p>
           </div>
           <div>
-            <motion.h3 className="text-6xl font-extrabold text-yellow-400">
+            <motion.h3 className="text-6xl font-extrabold text-gold">
               {projects}+
             </motion.h3>
             <p>Projects Completed</p>
           </div>
           <div>
-            <motion.h3 className="text-6xl font-extrabold text-yellow-400">
+            <motion.h3 className="text-6xl font-extrabold text-gold">
               {awards}+
             </motion.h3>
             <p>Awards Won</p>
@@ -300,7 +296,7 @@ export default function HomePage() {
           whileHover={{ scale: 1.1 }}
           animate={{ y: [0, -5, 0] }}
           transition={{ repeat: Infinity, duration: 2 }}
-          className="bg-yellow-400 p-4 rounded-full shadow-lg text-black"
+          className="bg-green-600 p-4 rounded-full shadow-lg text-white"
         >
           <FaWhatsapp size={28} />
         </motion.div>

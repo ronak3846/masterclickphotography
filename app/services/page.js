@@ -86,7 +86,7 @@ export default function ServicesPage() {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-4xl sm:text-5xl font-bold text-center mb-14 bg-gradient-to-r from-purple-400 to-blue-400 text-transparent bg-clip-text"
+        className="text-4xl sm:text-5xl font-bold text-center mb-14 text-gold "
       >
         Photography Services
       </motion.h2>
@@ -122,7 +122,7 @@ export default function ServicesPage() {
 
             {/* Text Section */}
             <div className="w-full md:w-1/2 space-y-4 text-center md:text-left">
-              <h3 className="text-2xl sm:text-3xl font-semibold text-purple-300">
+              <h3 className="text-2xl sm:text-3xl font-semibold text-gold">
                 {service.title}
               </h3>
               <p className="text-gray-300 text-base sm:text-lg leading-relaxed">

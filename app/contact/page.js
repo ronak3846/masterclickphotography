@@ -45,7 +45,7 @@ export default function ContactPage() {
         {/* Image Section */}
         <div className="relative w-full md:w-1/2 h-64">
           <Image
-            src="/images/contact-photo.jpg"
+            src="/images/profile.png"
             alt="Contact Photography"
             fill
             className="object-cover rounded-2xl"
